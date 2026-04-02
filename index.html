@@ -785,7 +785,7 @@ body::before {
 
 <script>
 // ── CONFIG ─────────────────────────────────────────────────────────────────
-const START_DATE = new Date('2026-03-02T00:00:00'); // April 2 — change before sharing
+const START_DATE = new Date('2026-04-02T00:00:00'); // April 2 — change before sharing
 
 // ── DAYS DATA ──────────────────────────────────────────────────────────────
 // Each day can have: title, memory, fragment
@@ -805,32 +805,32 @@ const DAYS = [
   {
     title: "Love Has No Border",
     memory: "The world is big, and people are more similar than they admit.",
-    fragment: "No border, no culture, no language can change what love feels like. It could have different names — but the feeling is always the same.",
+    fragment: "No border, no culture, no language can change what love feels like. It could have different names, but the feeling is always the same.",
   },
   {
     title: "I Had Given Up",
     memory: "Before you. A version of me I don't talk about much.",
-    fragment: "A few months ago, I had quietly given up — told myself maybe there's no love for me. Maybe I'm just too different. Maybe it's my karma.",
+    fragment: "A few months before I met you, I had quietly given up. I told myself maybe there's no love for me. Maybe I'm just too different. Maybe it's my karma.",
   },
   {
     title: "I Stayed True",
-    memory: "You came in, and I made a choice — probably without realising it.",
+    memory: "You came in, and I made a choice: probably without realising it.",
     fragment: "When you came into my life, instead of changing myself to be more of your liking, I stayed true to myself. I think that matters.",
   },
   {
     title: "What I Meant Then",
     memory: "There was a line I kept saying that you probably didn't fully understand at the time.",
-    fragment: "I used to tell you — I don't know what kind of a man I am because I've changed. I think you're starting to see what I meant.",
+    fragment: "If you remember, I used to tell you - I don't know what kind of a man I am because I've changed. I think you're starting to see what I meant.",
   },
   {
     title: "I Trusted You",
-    memory: "This one is the most intimate thing in the letter. I want you to feel its weight.",
-    fragment: "I already trusted you — but it felt empty somehow, like I was just saying it. And then something changed, and it didn't feel empty anymore. I trust you. That's everything.",
+    memory: "The most intimate thing in the letter. I want you to feel its weight.",
+    fragment: "I already trusted you (being an exception for 2am) but it felt empty somehow, like I was just saying it. And then something changed, and it didn't feel empty anymore. I trust you. That's everything.",
   },
   {
     title: "The Farmers",
     memory: "An unusual story. But it's where something shifted for me.",
-    fragment: "I went and talked to farmers — people whose whole livelihood depends on trust and hope. It calmed me down. My overthinking hit pause. And I came back to you.",
+    fragment: "I went and talked to farmers - people whose whole livelihood depends on trust and hope. It calmed me down. My overthinking hit pause. And I got my meaning back.",
   },
   {
     title: "What I Can't Answer",
@@ -840,32 +840,34 @@ const DAYS = [
   {
     title: "Natural",
     memory: "This is the one that got me when I re-read the letter.",
-    fragment: "Connecting with you felt natural. And I still can't describe what I feel — can't write it, can't quote it, because it hasn't been written by any author or poet. I can only feel it.",
+    fragment: "Connecting with you felt natural. And I still can't describe what I feel - can't write it, can't quote it, because it hasn't been written by any author or poet. I can only feel it.",
   },
   {
     title: "Halfway There",
-    memory: "Day 11 of 23. You're in the middle now. Keep going — the best is ahead.",
+    memory: "Day 11 of 23. You're in the middle now. Keep going! (The best is ahead)",
     fragment: "You stood your ground while I maintained mine. That's rare. I noticed it from the beginning.",
   },
   {
     title: "What Karan Aujla Said",
     memory: "My favourite artist said this live, recently. I felt it in my bones the moment he said it. It's everything I couldn't write.",
-    fragment: "ਦੁਨੀਆ ਚ ਅਜਿਹਾ ਕੋਈ ਫ਼ਕੀਰ ਨੀ, ਜਿਸਨੇ ਪਿਆਰ ਵਿੱਚ ਕੁਝ ਲਿਖਿਆ ਨਾ ਹੋਵੇ — ਪਰ ਇੱਕ ਗੱਲ ਸੱਚ ਦੱਸਾਂ, ਪਿਆਰ ਲਿਖਿਆ ਨੀ ਜਾਂਦਾ, ਪਿਆਰ ਸਮਝਾਇਆ ਵੀ ਨਹੀਂ ਜਾਂਦਾ, ਪਿਆਰ ਬੱਸ ਮਹਿਸੂਸ ਹੁੰਦਾ ਹੈ। — Karan Aujla",
+    fragment: "Duniya ch aaisa koi fakeer ni,"<br>" jinhe pyaar vich kuch likheya na hove," <br> " Pyaar dosti hai, Pyaar takraar hai, " <br> "Pyaar lakh chezaan ne, Par pyaar hunda ik baari hai."<br>
+ "You might be here with them. Hathaa vich hath paake khaloye hoye, "<br>"Ya bheed ch khade, kise nu chup chap yaad karde hoye,"<br>" Te kuch tusi hajje vi soch he rahe honge, dil vich eh sawaal leke,"<br>" ke je koi naal hunda, ta kive hunda."<br>
+ "Par ik gal sach dassa,  Pyaar likheya ni janda,"<br> "Pyaar samjhaya vi nahi janda,"<br>"Pyaar bas mehsoos hunda hai.. — Karan Aujla",
   },
   {
     title: "The Dream I Didn't Tell Fully",
-    memory: "That day with your mum and Sonam. I held something back. This is the rest of it.",
+    memory: "That dream starring your mum and Sonam. I held something back. This is (mostly) the rest of it.",
     fragment: "I want to open a school where kids and people who are physically challenged get free education. And I want my own farm. And a company with a friend. I had all of this planned — and then you came in, and it all made much more sense.",
   },
   {
     title: "The Café",
     memory: "A small detail. But it's very you, and very me.",
-    fragment: "I plan to open a café — San Franciscan. And since you love coffee, I'll put a great coffee machine in it, with space for you to sit and work. Just because.",
+    fragment: "I plan to open a café — San Franciscan. And since you love coffee, I'll put a great coffee machine in it, with space for you to sit and work.",
   },
   {
     title: "I'll Make Spaces",
     memory: "You might not love Ludhiana right now. I know that. But I have plans.",
-    fragment: "She might not like Ludhiana for what it is now — but I promise I'll make spaces here that I love, and that hopefully you will too.",
+    fragment: "You might not like Ludhiana for what it is now — but I promise I'll make spaces here that I love, and that hopefully you will love too.",
   },
   {
     title: "For Us",
@@ -875,7 +877,7 @@ const DAYS = [
   {
     title: "Your Efforts",
     memory: "I was saving this. Because I didn't want to throw it in casually. It deserves its own moment.",
-    fragment: "All those times you made contact with me — even when you were dead tired and exhausted — your efforts aren't going unnoticed. You've taken out time for me in moments I didn't even expect.",
+    fragment: "All those times you made contact with me — even when you were dead tired, exhausted and frustrated — your efforts aren't going unnoticed. You've taken out time for me in moments I didn't even expect.",
   },
   {
     title: "Thank You",
@@ -884,18 +886,18 @@ const DAYS = [
   },
   {
     title: "What They Said",
-    memory: "There are people with opinions. There are always people with opinions.",
+    memory: "Fear is What If... Faith is Even If...",
     fragment: "I've got people telling me the odds are against this connection — purely based on partial or no information. Just words with no basis in fact. I'm not worried.",
   },
   {
     title: "Almost There",
     memory: "Three more doors. You've come so far. So have we.",
-    fragment: "Even if one starry night the odds are against me — I'm not going anywhere. I know what this is. I know what you are.",
+    fragment: "Even if one starry night the odds are against me — I'm not going anywhere. I know what this is. I know what you are. I ",
   },
   {
     title: "What I Want for You Today",
     memory: "Tomorrow is your birthday. This is what I actually want for you.",
-    fragment: "Take care of yourself, Tanishka. You've worked incredibly hard. The least you deserve is this — a deep breath, and someone reminding you of that.",
+    fragment: "Take care of yourself, Tanishka. You've worked incredibly hard. The least you deserve is a deep breath, a scoop of protein, and someone reminding you of that. (:p)",
   },
   {
     title: "The Night Before",
